@@ -14,7 +14,7 @@ plot1 <- function() {
                            Date=="1/2/2007" | Date=="2/2/2007")
 
         ## Create the histogram as a PNG file
-        png(filename="plot1.png", width=480, height=480)
+        png(filename="plot1.png", width=480, height=480, bg="transparent")
         hist(sub_data$Global_active_power,
              col="red",
              xlab="Global Active Power (kilowatts)",

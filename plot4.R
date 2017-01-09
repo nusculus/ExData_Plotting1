@@ -18,7 +18,7 @@ plot4 <- function() {
                                  "%d/%m/%Y %H:%M:%S")
 
         ## Set up for a page for 2 by 2 graphs
-        png(filename="plot4.png", width=480, height=480)
+        png(filename="plot4.png", width=480, height=480, bg="transparent")
         par(mfcol=c(2,2), mar=c(4, 4, 2, 2))
 
         ## Create the first upper left graph

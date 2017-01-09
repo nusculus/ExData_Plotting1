@@ -18,7 +18,7 @@ plot3 <- function() {
                                  "%d/%m/%Y %H:%M:%S")
 
         ## Create the line graph as a PNG file
-        png(filename="plot3.png", width=480, height=480)
+        png(filename="plot3.png", width=480, height=480, bg="transparent")
         plot(reading_time,
              sub_data$Sub_metering_1,
              type="n",
